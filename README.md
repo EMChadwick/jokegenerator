@@ -11,4 +11,10 @@ A basic Laravel  application that fetches and displays programming jokes from an
 # Installlation
 - Clone repository
 - install PHP dependencies
+`composer install`
 - install node dependencies
+`npm install`
+- Run Database seeder for test user: test@example.com with password 'password'
+`php artisan db:seed`
+- run project
+`npm run dev`
